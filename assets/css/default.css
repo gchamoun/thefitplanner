@@ -1,0 +1,37 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 5, 2018, 8:27:43 AM
+    Author     : kartoone
+*/
+
+a.delete:hover { 
+    color:red;
+    font-weight:bold
+}
+
+h3.message {
+    display:block;
+    background:#aaa;
+    border:1px solid #000;
+}
+
+table td {
+    padding:10px;
+    border:1px solid #eee;
+}
+
+/* avoid putting a paragraph inside a form, let's reserve that for codeigniter error messages */
+form p {
+    color:red;
+    font-weight:bold;
+}
+form select, form input {
+    margin-bottom:6px;
+}
+form input[name="accessories[]"] {
+    margin-bottom:0;
+}
